@@ -36,7 +36,7 @@ CTxMemPool mempool;
 unsigned int nTransactionsUpdated = 0;
 
 map<uint256, CBlockIndex*> mapBlockIndex;
-uint256 hashGenesisBlock("0x1a91e3dace36e2be3bf030a65679fe821aa1d6ef92e7c9902eb318182c355691");
+uint256 hashGenesisBlock("0x884704f5d567d1cd1d7dd8fc51978f5a927a5c6901dec09c822239008d8b0517");
 static CBigNum bnProofOfWorkLimit(~uint256(0) >> 20); // Pixcoin: starting difficulty is 1 / 2^12
 CBlockIndex* pindexGenesisBlock = NULL;
 int nBestHeight = -1;
@@ -1098,44 +1098,58 @@ int static generateMTRandom(unsigned int s, int range)
     return dist(gen);
 }
 
-static const int64 nDiffChangeTarget = 145000; // Patch effective @ block 145000
+static const int64 nDiffChangeTarget = 0; //  legacy of dogecoin Cancelled for pixcoin
 
 int64 static GetBlockValue(int nHeight, int64 nFees, uint256 prevHash)
 {
-    int64 nSubsidy = 500000 * COIN;
+    int64 nSubsidy = 5 * COIN;
 
     std::string cseed_str = prevHash.ToString().substr(7,7);
     const char* cseed = cseed_str.c_str();
     long seed = hex2long(cseed);
-    int rand = generateMTRandom(seed, 999999);
+    int rand = generateMTRandom(seed, 100000);
     int rand1 = 0;
+    int rand2 = 0;
+    int rand3 = 0;
+    int rand4 = 0;
 
-    if(nHeight < 100000)
+    if(rand < 10000)
     {
-        nSubsidy = (1 + rand) * COIN;
+        rand1 = generateMTRandom(seed, 101);
+
+        rand2 = generateMTRandom(seed, 102);
+
+        rand3 = generateMTRandom(seed, 103);
+
+        rand4 = generateMTRandom(seed, 104);
+
+        int final = rand1;
+        if(final > rand2) {
+           final = rand2;
+        }
+        if(final > rand3) {
+           final = rand3;
+        }
+        if(final > rand4) {
+           final = rand4;
+        }
+
+        nSubsidy = final * COIN;
     }
-    else if(nHeight < 145000)
+    else if(rand == 12345)
     {
-        cseed_str = prevHash.ToString().substr(7,7);
-        cseed = cseed_str.c_str();
-        seed = hex2long(cseed);
-        rand1 = generateMTRandom(seed, 499999);
-        nSubsidy = (1 + rand1) * COIN;
+        nSubsidy = 4000 * COIN;
     }
-    else if(nHeight < 600000)
-    {
-        nSubsidy >>= (nHeight / 100000);
-    }
-    else
-    {
-        nSubsidy = 10000 * COIN;
+
+    if (nHeight == 1) {
+        nSubsidy = 10000000 * COIN;
     }
 
     return nSubsidy + nFees;
 }
 
-static const int64 nTargetTimespan = 4 * 60 * 60; // old retarget (4hrs)
-static const int64 nTargetTimespanNEW = 60 ; // PixCoin: every 1 minute
+static const int64 nTargetTimespan = 4 * 60 * 60; // old retarget (4hrs)   NEVER BEEN OR WILL BE USED ON PIXCOIN. Legacy of Dogecoin...
+static const int64 nTargetTimespanNEW = 1 * 60 ; // PixCoin: every 1 minute
 static const int64 nTargetSpacing = 60; // PixCoin: 1 minutes
 static const int64 nInterval = nTargetTimespan / nTargetSpacing;
 
@@ -1155,17 +1169,9 @@ unsigned int ComputeMinWork(unsigned int nBase, int64 nTime)
     
     while (nTime > 0 && bnResult < bnProofOfWorkLimit)
     {
-        if(nBestHeight+1<nDiffChangeTarget){
-            // Maximum 400% adjustment...
-            bnResult *= 4;
-            // ... in best-case exactly 4-times-normal target time
-            nTime -= nTargetTimespan*4;
-        } else {
-            // Maximum 10% adjustment...
-            bnResult = (bnResult * 110) / 100;
-            // ... in best-case exactly 4-times-normal target time
-            nTime -= nTargetTimespanNEW*4;
-        }
+        bnResult = (bnResult * 110) / 100;
+        // ... in best-case exactly 4-times-normal target time
+        nTime -= nTargetTimespanNEW*4;
     }
     if (bnResult > bnProofOfWorkLimit)
         bnResult = bnProofOfWorkLimit;
@@ -2851,6 +2857,22 @@ bool InitBlockIndex() {
 
     // Only add the genesis block if not reindexing (in which case we reuse the one already on disk)
     if (!fReindex) {
+
+//    CBlock(hash=3b32a0147a65c899286558042a8049c67d303177014ea33b3925796177cc687c, input=010000000000000000000000000000000000000000000000000000000000000000000000064f3ef03eb5247f9e365f3f43814e8ce260ee0114727b34296feb1393ebc069fd4b6253ffff0f1e00000000, PoW=48b54e907291b7015498e43695f36a58e1ca3062194d24d4fc96be7566d411ba, ver=1, hashPrevBlock=0000000000000000000000000000000000000000000000000000000000000000, hashMerkleRoot=69c0eb9313eb6f29347b721401ee60e28c4e81433f5f369e7f24b53ef03e4f06, nTime=1398950909, nBits=1e0fffff, nNonce=0, vtx=1)
+//      CTransaction(hash=69c0eb9313eb6f29347b721401ee60e28c4e81433f5f369e7f24b53ef03e4f06, ver=1, vin.size=1, vout.size=1, nLockTime=0)
+//        CTxIn(COutPoint(0000000000000000000000000000000000000000000000000000000000000000, 4294967295), coinbase 04ffff001d0104394d41736861626c652e2059656c70204e6f77204964656e74696669657320426974636f696e2d467269656e646c7920427573696e6573736573)
+//        CTxOut(nValue=10000000.00000000, scriptPubKey=55128f74615b89ad5023690c80f3a4)
+//      vMerkleTree: 69c0eb9313eb6f29347b721401ee60e28c4e81433f5f369e7f24b53ef03e4f06
+
+
+//block.GetHash = 884704f5d567d1cd1d7dd8fc51978f5a927a5c6901dec09c822239008d8b0517
+//CBlock(hash=884704f5d567d1cd1d7dd8fc51978f5a927a5c6901dec09c822239008d8b0517, input=010000000000000000000000000000000000000000000000000000000000000000000000c8acebad329d831102b5241414b5ebd08273a69820b36fdb53aeefa72e281ffffe4b6253f0ff0f1ec0b40f00, PoW=00000edba18ec5a397ed671f8c7003093c865dd8372870cc737b9ae4c3105793, ver=1, hashPrevBlock=0000000000000000000000000000000000000000000000000000000000000000, hashMerkleRoot=ff1f282ea7efae53db6fb32098a67382d0ebb5141424b50211839d32adebacc8, nTime=1398950910, nBits=1e0ffff0, nNonce=1029312, vtx=1)
+//  CTransaction(hash=ff1f282ea7efae53db6fb32098a67382d0ebb5141424b50211839d32adebacc8, ver=1, vin.size=1, vout.size=1, nLockTime=0)
+//    CTxIn(COutPoint(0000000000000000000000000000000000000000000000000000000000000000, 4294967295), coinbase 04ffff001d0104384d41736861626c652059656c70204e6f77204964656e74696669657320426974636f696e2d467269656e646c7920427573696e6573736573)
+//    CTxOut(nValue=10000000.00000000, scriptPubKey=45128f74615b89ad5023690c80f3a4)
+//  vMerkleTree: ff1f282ea7efae53db6fb32098a67382d0ebb5141424b50211839d32adebacc8
+
+
         // Genesis Block:
         // CBlock(hash=1a91e3dace36e2be3bf030a65679fe821aa1d6ef92e7c9902eb318182c355691, input=010000000000000000000000000000000000000000000000000000000000000000000000696ad20e2dd4365c7459b4a4a5af743d5e92c6da3229e6532cd605f6533f2a5b24a6a152f0ff0f1e67860100, PoW=0000026f3f7874ca0c251314eaed2d2fcf83d7da3acfaacf59417d485310b448, ver=1, hashPrevBlock=0000000000000000000000000000000000000000000000000000000000000000, hashMerkleRoot=5b2a3f53f605d62c53e62932dac6925e3d74afa5a4b459745c36d42d0ed26a69, nTime=1386325540, nBits=1e0ffff0, nNonce=99943, vtx=1)
         //   CTransaction(hash=5b2a3f53f605d62c53e62932dac6925e3d74afa5a4b459745c36d42d0ed26a69, ver=1, vin.size=1, vout.size=1, nLockTime=0)
@@ -2859,34 +2881,68 @@ bool InitBlockIndex() {
         //  vMerkleTree: 5b2a3f53f605d62c53e62932dac6925e3d74afa5a4b459745c36d42d0ed26a69 
 
         // Genesis block
-        const char* pszTimestamp = "Nintondo";
+        const char* pszTimestamp = "MAshable Yelp Now Identifies Bitcoin-Friendly Businesses";
         CTransaction txNew;
         txNew.vin.resize(1);
         txNew.vout.resize(1);
         txNew.vin[0].scriptSig = CScript() << 486604799 << CBigNum(4) << vector<unsigned char>((const unsigned char*)pszTimestamp, (const unsigned char*)pszTimestamp + strlen(pszTimestamp));
-        txNew.vout[0].nValue = 88 * COIN;
-        txNew.vout[0].scriptPubKey = CScript() << ParseHex("040184710fa689ad5023690c80f3a49c8f13f8d45b8c857fbcbc8bc4a8e4d3eb4b10f4d4604fa08dce601aaf0f470216fe1b51850b4acf21b179c45070ac7b03a9") << OP_CHECKSIG;
+        txNew.vout[0].nValue = 10000000 * COIN;
+        txNew.vout[0].scriptPubKey = CScript() << ParseHex("45128f74615b89ad5023690c80f3a49c8f13f8d45b8c857f343b59c4a8e4d3eb4b10f4d4604fa08dce601aaf0f470216fe1b51850b4acf21b179c45070ac7b03a9") << OP_CHECKSIG;
         CBlock block;
         block.vtx.push_back(txNew);
         block.hashPrevBlock = 0;
         block.hashMerkleRoot = block.BuildMerkleTree();
         block.nVersion = 1;
-        block.nTime    = 1386325540;
+        block.nTime    = 1398950910;
         block.nBits    = 0x1e0ffff0;
-        block.nNonce   = 99943;
+        block.nNonce   = 1029312;
 
         if (fTestNet)
         {
-            block.nTime    = 1391503289;
-            block.nNonce   = 997879;
+            block.nTime    = 1398950900;
+            block.nNonce   = 0;
         }
 
         //// debug print
         uint256 hash = block.GetHash();
-        printf("%s\n", hash.ToString().c_str());
-        printf("%s\n", hashGenesisBlock.ToString().c_str());
-        printf("%s\n", block.hashMerkleRoot.ToString().c_str());
-        assert(block.hashMerkleRoot == uint256("0x5b2a3f53f605d62c53e62932dac6925e3d74afa5a4b459745c36d42d0ed26a69"));
+        printf("Hash %s\n", hash.ToString().c_str());
+        printf("Genesis %s\n", hashGenesisBlock.ToString().c_str());
+        printf("Merkle %s\n", block.hashMerkleRoot.ToString().c_str());
+
+        assert(block.hashMerkleRoot == uint256("0xff1f282ea7efae53db6fb32098a67382d0ebb5141424b50211839d32adebacc8"));
+
+        // If genesis block hash does not match, then generate new genesis hash.
+        if (true && block.GetHash() != hashGenesisBlock)
+        {
+            printf("Searching for genesis block...\n");
+            // This will figure out a valid hash and Nonce if you're
+            // creating a different genesis block:
+            uint256 hashTarget = CBigNum().SetCompact(block.nBits).getuint256();
+            uint256 thash;
+            char scratchpad[SCRYPT_SCRATCHPAD_SIZE];
+
+            loop
+            {
+                scrypt_1024_1_1_256_sp(BEGIN(block.nVersion), BEGIN(thash), scratchpad);
+                if (thash <= hashTarget)
+                    break;
+                if ((block.nNonce & 0xFFF) == 0)
+                {
+                    printf("nonce %08X: hash = %s (target = %s)\n", block.nNonce, thash.ToString().c_str(), hashTarget.ToString().c_str());
+                }
+                ++block.nNonce;
+                if (block.nNonce == 0)
+                {
+                    printf("NONCE WRAPPED, incrementing time\n");
+                    ++block.nTime;
+                }
+            }
+            printf("block.nTime = %u \n", block.nTime);
+            printf("block.nNonce = %u \n", block.nNonce);
+            printf("block.GetHash = %s\n", block.GetHash().ToString().c_str());
+        }
+
+
         block.print();
         assert(hash == hashGenesisBlock);
 

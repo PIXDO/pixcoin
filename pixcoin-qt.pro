@@ -1,6 +1,7 @@
 TEMPLATE = app
-TARGET = dogecoin-qt
-macx:TARGET = "Dogecoin-Qt"
+TARGET = pixcoin-qt
+macx:TARGET = "Pixcoin-Qt"
+
 VERSION = 1.6.1
 INCLUDEPATH += src src/json src/qt
 QT += core gui network
@@ -139,10 +140,10 @@ macx: {
         $$BOOST_LIB_PATH/libboost_thread-mt.a \
         $$BOOST_LIB_PATH/libboost_chrono-mt.a
     DEFINES += MAC_OSX
-    ICON = src/mac/artwork/Dogecoin.icns
+    ICON = src/qt/res/icons/bitcoin.icns
     QMAKE_INFO_PLIST=src/mac/Info.plist
     # osx 10.9 has changed the stdlib default to libc++. To prevent some link error, you may need to use libstdc++
-    QMAKE_CXXFLAGS += -stdlib=libstdc++
+    #QMAKE_CXXFLAGS += -stdlib=libstdc++
 
     QMAKE_CFLAGS_THREAD += -pthread
     QMAKE_CXXFLAGS_THREAD += -pthread
@@ -366,7 +367,7 @@ SOURCES += src/qt/test/test_main.cpp \
 HEADERS += src/qt/test/uritests.h
 DEPENDPATH += src/qt/test
 QT += testlib
-TARGET = dogecoin-qt_test
+TARGET = pixcoin-qt_test
 DEFINES += BITCOIN_QT_TEST
   macx: CONFIG -= app_bundle
 }
@@ -443,6 +444,7 @@ win32:!contains(MINGW_THREAD_BUGFIX, 0) {
     DEFINES += _FILE_OFFSET_BITS=64
 }
 
+macx:ICON = src/qt/res/icons/bitcoin.icns
 
 # Set libraries and includes at end, to use platform-defined defaults if not overridden
 INCLUDEPATH += $$BOOST_INCLUDE_PATH $$BDB_INCLUDE_PATH $$OPENSSL_INCLUDE_PATH $$QRENCODE_INCLUDE_PATH
