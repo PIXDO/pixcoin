@@ -1,6 +1,6 @@
 src/*.exe
 src/pixcoin
-src/pixcoind
+#src/pixcoind
 src/test_pixcoin
 .*.swp
 *.*~*

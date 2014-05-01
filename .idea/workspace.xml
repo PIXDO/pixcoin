@@ -2,153 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="374fb92a-0c20-42d8-b887-f26d59269d53" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dogecoin-qt.pro" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/qt/res/icons/add.png" afterPath="$PROJECT_DIR$/src/qt/res/icons/add.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/qt/res/icons/address-book.png" afterPath="$PROJECT_DIR$/src/qt/res/icons/address-book.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/qt/res/icons/bitcoin.icns" afterPath="$PROJECT_DIR$/src/qt/res/icons/bitcoin.icns" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/qt/res/icons/bitcoin.ico" afterPath="$PROJECT_DIR$/src/qt/res/icons/bitcoin.ico" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/qt/res/icons/bitcoin.png" afterPath="$PROJECT_DIR$/src/qt/res/icons/bitcoin.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/qt/res/icons/bitcoin_testnet.ico" afterPath="$PROJECT_DIR$/src/qt/res/icons/bitcoin_testnet.ico" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/qt/res/icons/bitcoin_testnet.png" afterPath="$PROJECT_DIR$/src/qt/res/icons/bitcoin_testnet.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/qt/res/icons/clock1.png" afterPath="$PROJECT_DIR$/src/qt/res/icons/clock1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/qt/res/icons/clock2.png" afterPath="$PROJECT_DIR$/src/qt/res/icons/clock2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/qt/res/icons/clock3.png" afterPath="$PROJECT_DIR$/src/qt/res/icons/clock3.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/qt/res/icons/clock4.png" afterPath="$PROJECT_DIR$/src/qt/res/icons/clock4.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/qt/res/icons/clock5.png" afterPath="$PROJECT_DIR$/src/qt/res/icons/clock5.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/qt/res/icons/configure.png" afterPath="$PROJECT_DIR$/src/qt/res/icons/configure.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/qt/res/icons/connect0_16.png" afterPath="$PROJECT_DIR$/src/qt/res/icons/connect0_16.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/qt/res/icons/connect1_16.png" afterPath="$PROJECT_DIR$/src/qt/res/icons/connect1_16.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/qt/res/icons/connect2_16.png" afterPath="$PROJECT_DIR$/src/qt/res/icons/connect2_16.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/qt/res/icons/connect3_16.png" afterPath="$PROJECT_DIR$/src/qt/res/icons/connect3_16.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/qt/res/icons/connect4_16.png" afterPath="$PROJECT_DIR$/src/qt/res/icons/connect4_16.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/qt/res/icons/debugwindow.png" afterPath="$PROJECT_DIR$/src/qt/res/icons/debugwindow.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/qt/res/icons/edit.png" afterPath="$PROJECT_DIR$/src/qt/res/icons/edit.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/qt/res/icons/editcopy.png" afterPath="$PROJECT_DIR$/src/qt/res/icons/editcopy.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/qt/res/icons/editpaste.png" afterPath="$PROJECT_DIR$/src/qt/res/icons/editpaste.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/qt/res/icons/export.png" afterPath="$PROJECT_DIR$/src/qt/res/icons/export.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/qt/res/icons/filesave.png" afterPath="$PROJECT_DIR$/src/qt/res/icons/filesave.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/qt/res/icons/history.png" afterPath="$PROJECT_DIR$/src/qt/res/icons/history.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/qt/res/icons/key.png" afterPath="$PROJECT_DIR$/src/qt/res/icons/key.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/qt/res/icons/lock_closed.png" afterPath="$PROJECT_DIR$/src/qt/res/icons/lock_closed.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/qt/res/icons/lock_open.png" afterPath="$PROJECT_DIR$/src/qt/res/icons/lock_open.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/qt/res/icons/mining.png" afterPath="$PROJECT_DIR$/src/qt/res/icons/mining.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/qt/res/icons/mining_active.png" afterPath="$PROJECT_DIR$/src/qt/res/icons/mining_active.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/qt/res/icons/mining_inactive.png" afterPath="$PROJECT_DIR$/src/qt/res/icons/mining_inactive.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/qt/res/icons/notsynced.png" afterPath="$PROJECT_DIR$/src/qt/res/icons/notsynced.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/qt/res/icons/overview.png" afterPath="$PROJECT_DIR$/src/qt/res/icons/overview.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/qt/res/icons/qrcode.png" afterPath="$PROJECT_DIR$/src/qt/res/icons/qrcode.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/qt/res/icons/quit.png" afterPath="$PROJECT_DIR$/src/qt/res/icons/quit.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/qt/res/icons/receive.png" afterPath="$PROJECT_DIR$/src/qt/res/icons/receive.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/qt/res/icons/remove.png" afterPath="$PROJECT_DIR$/src/qt/res/icons/remove.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/qt/res/icons/send.png" afterPath="$PROJECT_DIR$/src/qt/res/icons/send.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/qt/res/icons/synced.png" afterPath="$PROJECT_DIR$/src/qt/res/icons/synced.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/qt/res/icons/toolbar.png" afterPath="$PROJECT_DIR$/src/qt/res/icons/toolbar.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/qt/res/icons/toolbar_testnet.png" afterPath="$PROJECT_DIR$/src/qt/res/icons/toolbar_testnet.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/qt/res/icons/transaction0.png" afterPath="$PROJECT_DIR$/src/qt/res/icons/transaction0.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/qt/res/icons/transaction2.png" afterPath="$PROJECT_DIR$/src/qt/res/icons/transaction2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/qt/res/icons/tx_inout.png" afterPath="$PROJECT_DIR$/src/qt/res/icons/tx_inout.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/qt/res/icons/tx_input.png" afterPath="$PROJECT_DIR$/src/qt/res/icons/tx_input.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/qt/res/icons/tx_mined.png" afterPath="$PROJECT_DIR$/src/qt/res/icons/tx_mined.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/qt/res/icons/tx_output.png" afterPath="$PROJECT_DIR$/src/qt/res/icons/tx_output.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/COPYING" afterPath="$PROJECT_DIR$/COPYING" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/INSTALL" afterPath="$PROJECT_DIR$/INSTALL" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/mac/Info.plist" afterPath="$PROJECT_DIR$/src/mac/Info.plist" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/README.md" afterPath="$PROJECT_DIR$/doc/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/contrib/debian/README" afterPath="$PROJECT_DIR$/contrib/debian/README" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/README_windows.txt" afterPath="$PROJECT_DIR$/doc/README_windows.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/Tor.txt" afterPath="$PROJECT_DIR$/doc/Tor.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/base58.h" afterPath="$PROJECT_DIR$/src/base58.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/qt/locale/bitcoin_af_ZA.ts" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_af_ZA.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/qt/locale/bitcoin_ar.ts" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_ar.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/qt/locale/bitcoin_bg.ts" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_bg.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/qt/locale/bitcoin_bs.ts" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_bs.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/qt/locale/bitcoin_ca.ts" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_ca.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/qt/locale/bitcoin_ca_ES.ts" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_ca_ES.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/qt/locale/bitcoin_cs.ts" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_cs.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/qt/locale/bitcoin_cy.ts" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_cy.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/qt/locale/bitcoin_da.ts" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_da.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/qt/locale/bitcoin_de.ts" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_de.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/qt/locale/bitcoin_el_GR.ts" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_el_GR.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/qt/locale/bitcoin_en.ts" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_en.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/qt/locale/bitcoin_eo.ts" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_eo.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/qt/locale/bitcoin_es.ts" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_es.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/qt/locale/bitcoin_es_CL.ts" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_es_CL.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/qt/locale/bitcoin_et.ts" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_et.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/qt/locale/bitcoin_eu_ES.ts" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_eu_ES.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/qt/locale/bitcoin_fa.ts" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_fa.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/qt/locale/bitcoin_fa_IR.ts" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_fa_IR.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/qt/locale/bitcoin_fi.ts" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_fi.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/qt/locale/bitcoin_fr.ts" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_fr.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/qt/locale/bitcoin_fr_CA.ts" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_fr_CA.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/qt/locale/bitcoin_gu_IN.ts" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_gu_IN.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/qt/locale/bitcoin_he.ts" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_he.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/qt/locale/bitcoin_hi_IN.ts" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_hi_IN.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/qt/locale/bitcoin_hr.ts" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_hr.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/qt/locale/bitcoin_hu.ts" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_hu.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/qt/locale/bitcoin_it.ts" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_it.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/qt/locale/bitcoin_ja.ts" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_ja.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/qt/locale/bitcoin_la.ts" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_la.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/qt/locale/bitcoin_lt.ts" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_lt.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/qt/locale/bitcoin_lv_LV.ts" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_lv_LV.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/qt/locale/bitcoin_nb.ts" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_nb.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/qt/locale/bitcoin_nl.ts" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_nl.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/qt/locale/bitcoin_pl.ts" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_pl.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/qt/locale/bitcoin_pt_BR.ts" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_pt_BR.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/qt/locale/bitcoin_pt_PT.ts" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_pt_PT.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/qt/locale/bitcoin_ro_RO.ts" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_ro_RO.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/qt/locale/bitcoin_ru.ts" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_ru.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/qt/locale/bitcoin_sk.ts" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_sk.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/qt/locale/bitcoin_sr.ts" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_sr.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/qt/locale/bitcoin_sv.ts" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_sv.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/qt/locale/bitcoin_th_TH.ts" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_th_TH.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/qt/locale/bitcoin_tr.ts" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_tr.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/qt/locale/bitcoin_uk.ts" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_uk.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/qt/locale/bitcoin_zh_CN.ts" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_zh_CN.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/qt/locale/bitcoin_zh_TW.ts" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_zh_TW.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/bitcoinrpc.cpp" afterPath="$PROJECT_DIR$/src/bitcoinrpc.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/qt/bitcoinstrings.cpp" afterPath="$PROJECT_DIR$/src/qt/bitcoinstrings.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/build-msw.md" afterPath="$PROJECT_DIR$/doc/build-msw.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/build-osx.md" afterPath="$PROJECT_DIR$/doc/build-osx.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/build-unix.md" afterPath="$PROJECT_DIR$/doc/build-unix.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/contrib/debian/control" afterPath="$PROJECT_DIR$/contrib/debian/control" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/contrib/debian/manpages/dogecoin-qt.1" afterPath="$PROJECT_DIR$/contrib/debian/manpages/dogecoin-qt.1" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/contrib/debian/dogecoin-qt.desktop" afterPath="$PROJECT_DIR$/contrib/debian/dogecoin-qt.desktop" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/contrib/debian/dogecoin-qt.install" afterPath="$PROJECT_DIR$/contrib/debian/dogecoin-qt.install" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/contrib/debian/dogecoin-qt.lintian-overrides" afterPath="$PROJECT_DIR$/contrib/debian/dogecoin-qt.lintian-overrides" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/contrib/debian/dogecoin-qt.protocol" afterPath="$PROJECT_DIR$/contrib/debian/dogecoin-qt.protocol" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/contrib/debian/manpages/dogecoin.conf.5" afterPath="$PROJECT_DIR$/contrib/debian/manpages/dogecoin.conf.5" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/contrib/debian/examples/dogecoin.conf" afterPath="$PROJECT_DIR$/contrib/debian/examples/dogecoin.conf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/contrib/debian/manpages/dogecoind.1" afterPath="$PROJECT_DIR$/contrib/debian/manpages/dogecoind.1" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/contrib/dogecoind.bash-completion" afterPath="$PROJECT_DIR$/contrib/dogecoind.bash-completion" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/contrib/debian/dogecoind.bash-completion" afterPath="$PROJECT_DIR$/contrib/debian/dogecoind.bash-completion" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/contrib/debian/dogecoind.examples" afterPath="$PROJECT_DIR$/contrib/debian/dogecoind.examples" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/contrib/debian/dogecoind.install" afterPath="$PROJECT_DIR$/contrib/debian/dogecoind.install" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/contrib/debian/dogecoind.lintian-overrides" afterPath="$PROJECT_DIR$/contrib/debian/dogecoind.lintian-overrides" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/contrib/debian/dogecoind.manpages" afterPath="$PROJECT_DIR$/contrib/debian/dogecoind.manpages" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/init.cpp" afterPath="$PROJECT_DIR$/src/init.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/qt/macdockiconhandler.mm" afterPath="$PROJECT_DIR$/src/qt/macdockiconhandler.mm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main.cpp" afterPath="$PROJECT_DIR$/src/main.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main.h" afterPath="$PROJECT_DIR$/src/main.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/makefile.osx" afterPath="$PROJECT_DIR$/src/makefile.osx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/net.cpp" afterPath="$PROJECT_DIR$/src/net.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/protocol.h" afterPath="$PROJECT_DIR$/src/protocol.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/readme-qt.rst" afterPath="$PROJECT_DIR$/doc/readme-qt.rst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/release-process.md" afterPath="$PROJECT_DIR$/doc/release-process.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/contrib/debian/rules" afterPath="$PROJECT_DIR$/contrib/debian/rules" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/setup-win-build.nsi" afterPath="$PROJECT_DIR$/share/setup-win-build.nsi" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/share/setup.nsi" afterPath="$PROJECT_DIR$/share/setup.nsi" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/translation_process.md" afterPath="$PROJECT_DIR$/doc/translation_process.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/unit-tests.md" afterPath="$PROJECT_DIR$/doc/unit-tests.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/util_tests.cpp" afterPath="$PROJECT_DIR$/src/test/util_tests.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/contrib/debian/watch" afterPath="$PROJECT_DIR$/contrib/debian/watch" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/qt/res/images/about.png" afterPath="$PROJECT_DIR$/src/qt/res/images/about.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/qt/res/images/splash.png" afterPath="$PROJECT_DIR$/src/qt/res/images/splash.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/qt/res/images/splash_testnet.png" afterPath="$PROJECT_DIR$/src/qt/res/images/splash_testnet.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/qt/res/images/wallet_bgcoin.png" afterPath="$PROJECT_DIR$/src/qt/res/images/wallet_bgcoin.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/assets-attribution.txt" afterPath="$PROJECT_DIR$/doc/assets-attribution.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/checkpoints.cpp" afterPath="$PROJECT_DIR$/src/checkpoints.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/contrib/debian/copyright" afterPath="$PROJECT_DIR$/contrib/debian/copyright" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pixcoin-qt.pro" afterPath="$PROJECT_DIR$/pixcoin-qt.pro" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="pixcoin.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="374fb92a-0c20-42d8-b887-f26d59269d53" time="1398928438656" ignored="false" />
-    <file path="/a.dummy" changelist="374fb92a-0c20-42d8-b887-f26d59269d53" time="1398952857690" ignored="false" />
+    <file path="/a.dummy" changelist="374fb92a-0c20-42d8-b887-f26d59269d53" time="1398958188644" ignored="false" />
     <file path="/net.cpp" changelist="374fb92a-0c20-42d8-b887-f26d59269d53" time="1398930203933" ignored="false" />
     <file path="/makefile.osx" changelist="374fb92a-0c20-42d8-b887-f26d59269d53" time="1398946904887" ignored="false" />
     <file path="/pixcoin-qt.pro" changelist="374fb92a-0c20-42d8-b887-f26d59269d53" time="1398936425618" ignored="false" />
@@ -156,6 +23,9 @@
     <file path="/main.cpp" changelist="374fb92a-0c20-42d8-b887-f26d59269d53" time="1398952705545" ignored="false" />
     <file path="/base58.h" changelist="374fb92a-0c20-42d8-b887-f26d59269d53" time="1398951767167" ignored="false" />
     <file path="/Info.plist" changelist="374fb92a-0c20-42d8-b887-f26d59269d53" time="1398952575566" ignored="false" />
+    <file path="/checkpoints.cpp" changelist="374fb92a-0c20-42d8-b887-f26d59269d53" time="1398955226012" ignored="false" />
+    <file path="/assets-attribution.txt" changelist="374fb92a-0c20-42d8-b887-f26d59269d53" time="1398956126705" ignored="false" />
+    <file path="/copyright" changelist="374fb92a-0c20-42d8-b887-f26d59269d53" time="1398958040272" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -175,19 +45,55 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name=".gitignore" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+      <file leaf-file-name="main.cpp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="125" selection-start="104" selection-end="104" vertical-scroll-proportion="0.0">
+            <state line="2895" column="56" selection-start="106851" selection-end="106851" vertical-scroll-proportion="-10.461538">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.cpp" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main.cpp">
+      <file leaf-file-name="checkpoints.cpp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/checkpoints.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2897" column="32" selection-start="106921" selection-end="106921" vertical-scroll-proportion="0.65938866">
+            <state line="129" column="20" selection-start="5017" selection-end="5017" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pixcoin-qt.pro" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pixcoin-qt.pro">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="147" column="37" selection-start="4773" selection-end="4773" vertical-scroll-proportion="-8.730769">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Makefile" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Makefile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="344" column="168" selection-start="12040" selection-end="12040" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="assets-attribution.txt" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/doc/assets-attribution.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="56" column="48" selection-start="2403" selection-end="2403" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="copyright" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/contrib/debian/copyright">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="90" column="28" selection-start="3236" selection-end="3236" vertical-scroll-proportion="0.6639839">
               <folding />
             </state>
           </provider>
@@ -229,42 +135,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="INSTALL" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/INSTALL">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="18" selection-start="311" selection-end="311" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="control" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/contrib/debian/control">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="54" column="45" selection-start="2047" selection-end="2047" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="dogecoin-qt.desktop" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/contrib/debian/dogecoin-qt.desktop">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="12" selection-start="158" selection-end="158" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="dogecoin.conf" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/contrib/debian/examples/dogecoin.conf">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="47" column="7" selection-start="1353" selection-end="1353" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FindManager">
@@ -283,11 +153,7 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/net.cpp" />
-        <option value="$PROJECT_DIR$/src/qt/macdockiconhandler.mm" />
-        <option value="$PROJECT_DIR$/Makefile" />
         <option value="$PROJECT_DIR$/src/makefile.osx" />
-        <option value="$PROJECT_DIR$/pixcoin-qt.pro" />
         <option value="$PROJECT_DIR$/COPYING" />
         <option value="$PROJECT_DIR$/INSTALL" />
         <option value="$PROJECT_DIR$/contrib/debian/control" />
@@ -299,6 +165,10 @@
         <option value="$PROJECT_DIR$/src/mac/Info.plist" />
         <option value="$PROJECT_DIR$/Pixcoin-Qt.app/Contents/Info.plist" />
         <option value="$PROJECT_DIR$/src/main.cpp" />
+        <option value="$PROJECT_DIR$/src/checkpoints.cpp" />
+        <option value="$PROJECT_DIR$/pixcoin-qt.pro" />
+        <option value="$PROJECT_DIR$/doc/assets-attribution.txt" />
+        <option value="$PROJECT_DIR$/contrib/debian/copyright" />
       </list>
     </option>
   </component>
@@ -427,6 +297,84 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pixcoin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pixcoin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="qt" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="movies" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pixcoin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pixcoin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="qt" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="images" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pixcoin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pixcoin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="qt" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="icons" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -461,13 +409,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1885" height="878" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32950193" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24986738" sideWeight="0.6704981" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24986738" sideWeight="0.6704981" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
@@ -542,41 +490,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/qt/macdockiconhandler.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="6" selection-start="329" selection-end="329" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/qt/macdockiconhandler.mm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="54" column="52" selection-start="1247" selection-end="1247" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Makefile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="8" selection-start="805" selection-end="805" vertical-scroll-proportion="-5.1923075">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/makefile.osx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="127" column="12" selection-start="2779" selection-end="2781" vertical-scroll-proportion="-6.0384617">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pixcoin-qt.pro">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="446" column="41" selection-start="14174" selection-end="14174" vertical-scroll-proportion="-11.846154">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/COPYING">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="24" selection-start="111" selection-end="111" vertical-scroll-proportion="0.0">
@@ -649,7 +562,42 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2897" column="32" selection-start="106921" selection-end="106921" vertical-scroll-proportion="0.65938866">
+        <state line="2895" column="56" selection-start="106851" selection-end="106851" vertical-scroll-proportion="-10.461538">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/checkpoints.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="129" column="20" selection-start="5017" selection-end="5017" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pixcoin-qt.pro">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="147" column="37" selection-start="4773" selection-end="4773" vertical-scroll-proportion="-8.730769">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Makefile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="344" column="168" selection-start="12040" selection-end="12040" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doc/assets-attribution.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="56" column="48" selection-start="2403" selection-end="2403" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contrib/debian/copyright">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="90" column="28" selection-start="3236" selection-end="3236" vertical-scroll-proportion="0.6639839">
           <folding />
         </state>
       </provider>
