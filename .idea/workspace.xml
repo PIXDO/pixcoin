@@ -1,0 +1,451 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="374fb92a-0c20-42d8-b887-f26d59269d53" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/pixcoin.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/mac/Info.plist" afterPath="$PROJECT_DIR$/src/mac/Info.plist" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/qt/aboutdialog.cpp" afterPath="$PROJECT_DIR$/src/qt/aboutdialog.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/qt/forms/aboutdialog.ui" afterPath="$PROJECT_DIR$/src/qt/forms/aboutdialog.ui" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/qt/addressbookpage.cpp" afterPath="$PROJECT_DIR$/src/qt/addressbookpage.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/qt/forms/addressbookpage.ui" afterPath="$PROJECT_DIR$/src/qt/forms/addressbookpage.ui" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/addrman.cpp" afterPath="$PROJECT_DIR$/src/addrman.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/addrman.h" afterPath="$PROJECT_DIR$/src/addrman.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/alert.cpp" afterPath="$PROJECT_DIR$/src/alert.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/alert.h" afterPath="$PROJECT_DIR$/src/alert.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/allocators.h" afterPath="$PROJECT_DIR$/src/allocators.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/qt/askpassphrasedialog.cpp" afterPath="$PROJECT_DIR$/src/qt/askpassphrasedialog.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/base58.h" afterPath="$PROJECT_DIR$/src/base58.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/bignum.h" afterPath="$PROJECT_DIR$/src/bignum.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/qt/res/bitcoin-qt.rc" afterPath="$PROJECT_DIR$/src/qt/res/bitcoin-qt.rc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/qt/bitcoin.cpp" afterPath="$PROJECT_DIR$/src/qt/bitcoin.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/qt/locale/bitcoin_af_ZA.ts" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_af_ZA.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/qt/locale/bitcoin_ar.ts" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_ar.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/qt/locale/bitcoin_bg.ts" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_bg.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/qt/locale/bitcoin_bs.ts" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_bs.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/qt/locale/bitcoin_ca.ts" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_ca.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/qt/locale/bitcoin_ca_ES.ts" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_ca_ES.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/qt/locale/bitcoin_cs.ts" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_cs.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/qt/locale/bitcoin_cy.ts" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_cy.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/qt/locale/bitcoin_da.ts" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_da.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/qt/locale/bitcoin_de.ts" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_de.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/qt/locale/bitcoin_el_GR.ts" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_el_GR.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/qt/locale/bitcoin_en.ts" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_en.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/qt/locale/bitcoin_eo.ts" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_eo.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/qt/locale/bitcoin_es.ts" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_es.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/qt/locale/bitcoin_es_CL.ts" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_es_CL.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/qt/locale/bitcoin_et.ts" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_et.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/qt/locale/bitcoin_eu_ES.ts" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_eu_ES.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/qt/locale/bitcoin_fa.ts" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_fa.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/qt/locale/bitcoin_fa_IR.ts" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_fa_IR.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/qt/locale/bitcoin_fi.ts" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_fi.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/qt/locale/bitcoin_fr.ts" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_fr.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/qt/locale/bitcoin_fr_CA.ts" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_fr_CA.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/qt/locale/bitcoin_gu_IN.ts" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_gu_IN.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/qt/locale/bitcoin_he.ts" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_he.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/qt/locale/bitcoin_hi_IN.ts" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_hi_IN.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/qt/locale/bitcoin_hr.ts" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_hr.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/qt/locale/bitcoin_hu.ts" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_hu.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/qt/locale/bitcoin_it.ts" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_it.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/qt/locale/bitcoin_ja.ts" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_ja.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/qt/locale/bitcoin_la.ts" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_la.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/qt/locale/bitcoin_lt.ts" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_lt.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/qt/locale/bitcoin_lv_LV.ts" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_lv_LV.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/qt/locale/bitcoin_nb.ts" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_nb.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/qt/locale/bitcoin_nl.ts" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_nl.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/qt/locale/bitcoin_pl.ts" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_pl.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/qt/locale/bitcoin_pt_BR.ts" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_pt_BR.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/qt/locale/bitcoin_pt_PT.ts" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_pt_PT.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/qt/locale/bitcoin_ro_RO.ts" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_ro_RO.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/qt/locale/bitcoin_ru.ts" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_ru.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/qt/locale/bitcoin_sk.ts" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_sk.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/qt/locale/bitcoin_sr.ts" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_sr.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/qt/locale/bitcoin_sv.ts" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_sv.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/qt/locale/bitcoin_th_TH.ts" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_th_TH.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/qt/locale/bitcoin_tr.ts" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_tr.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/qt/locale/bitcoin_uk.ts" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_uk.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/qt/locale/bitcoin_zh_CN.ts" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_zh_CN.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/qt/locale/bitcoin_zh_TW.ts" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_zh_TW.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/qt/bitcoingui.cpp" afterPath="$PROJECT_DIR$/src/qt/bitcoingui.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/bitcoinrpc.cpp" afterPath="$PROJECT_DIR$/src/bitcoinrpc.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/bitcoinrpc.h" afterPath="$PROJECT_DIR$/src/bitcoinrpc.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/qt/bitcoinstrings.cpp" afterPath="$PROJECT_DIR$/src/qt/bitcoinstrings.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/qt/bitcoinunits.cpp" afterPath="$PROJECT_DIR$/src/qt/bitcoinunits.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/bloom.cpp" afterPath="$PROJECT_DIR$/src/bloom.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/bloom.h" afterPath="$PROJECT_DIR$/src/bloom.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/checkpoints.cpp" afterPath="$PROJECT_DIR$/src/checkpoints.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/checkpoints.h" afterPath="$PROJECT_DIR$/src/checkpoints.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/checkqueue.h" afterPath="$PROJECT_DIR$/src/checkqueue.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/clientversion.h" afterPath="$PROJECT_DIR$/src/clientversion.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/coincontrol.h" afterPath="$PROJECT_DIR$/src/coincontrol.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/compat.h" afterPath="$PROJECT_DIR$/src/compat.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/crypter.cpp" afterPath="$PROJECT_DIR$/src/crypter.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/crypter.h" afterPath="$PROJECT_DIR$/src/crypter.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/db.cpp" afterPath="$PROJECT_DIR$/src/db.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/db.h" afterPath="$PROJECT_DIR$/src/db.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/qt/editaddressdialog.cpp" afterPath="$PROJECT_DIR$/src/qt/editaddressdialog.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/qt/guiutil.cpp" afterPath="$PROJECT_DIR$/src/qt/guiutil.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/hash.cpp" afterPath="$PROJECT_DIR$/src/hash.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/hash.h" afterPath="$PROJECT_DIR$/src/hash.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/init.cpp" afterPath="$PROJECT_DIR$/src/init.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/init.h" afterPath="$PROJECT_DIR$/src/init.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/key.cpp" afterPath="$PROJECT_DIR$/src/key.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/key.h" afterPath="$PROJECT_DIR$/src/key.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/keystore.cpp" afterPath="$PROJECT_DIR$/src/keystore.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/keystore.h" afterPath="$PROJECT_DIR$/src/keystore.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/leveldb.cpp" afterPath="$PROJECT_DIR$/src/leveldb.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/leveldb.h" afterPath="$PROJECT_DIR$/src/leveldb.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/limitedmap.h" afterPath="$PROJECT_DIR$/src/limitedmap.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main.cpp" afterPath="$PROJECT_DIR$/src/main.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main.h" afterPath="$PROJECT_DIR$/src/main.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/makefile.linux-mingw" afterPath="$PROJECT_DIR$/src/makefile.linux-mingw" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/makefile.mingw" afterPath="$PROJECT_DIR$/src/makefile.mingw" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/makefile.osx" afterPath="$PROJECT_DIR$/src/makefile.osx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/makefile.unix" afterPath="$PROJECT_DIR$/src/makefile.unix" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/mruset.h" afterPath="$PROJECT_DIR$/src/mruset.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/net.cpp" afterPath="$PROJECT_DIR$/src/net.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/net.h" afterPath="$PROJECT_DIR$/src/net.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/netbase.cpp" afterPath="$PROJECT_DIR$/src/netbase.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/netbase.h" afterPath="$PROJECT_DIR$/src/netbase.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/noui.cpp" afterPath="$PROJECT_DIR$/src/noui.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/qt/optionsdialog.cpp" afterPath="$PROJECT_DIR$/src/qt/optionsdialog.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/qt/forms/optionsdialog.ui" afterPath="$PROJECT_DIR$/src/qt/forms/optionsdialog.ui" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/qt/overviewpage.cpp" afterPath="$PROJECT_DIR$/src/qt/overviewpage.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/qt/forms/overviewpage.ui" afterPath="$PROJECT_DIR$/src/qt/forms/overviewpage.ui" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/qt/paymentserver.cpp" afterPath="$PROJECT_DIR$/src/qt/paymentserver.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/qt/paymentserver.h" afterPath="$PROJECT_DIR$/src/qt/paymentserver.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/protocol.cpp" afterPath="$PROJECT_DIR$/src/protocol.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/protocol.h" afterPath="$PROJECT_DIR$/src/protocol.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/qt/qrcodedialog.cpp" afterPath="$PROJECT_DIR$/src/qt/qrcodedialog.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/rpcblockchain.cpp" afterPath="$PROJECT_DIR$/src/rpcblockchain.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/qt/rpcconsole.cpp" afterPath="$PROJECT_DIR$/src/qt/rpcconsole.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/qt/forms/rpcconsole.ui" afterPath="$PROJECT_DIR$/src/qt/forms/rpcconsole.ui" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/rpcdump.cpp" afterPath="$PROJECT_DIR$/src/rpcdump.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/rpcmining.cpp" afterPath="$PROJECT_DIR$/src/rpcmining.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/rpcnet.cpp" afterPath="$PROJECT_DIR$/src/rpcnet.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/rpcrawtransaction.cpp" afterPath="$PROJECT_DIR$/src/rpcrawtransaction.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/rpcwallet.cpp" afterPath="$PROJECT_DIR$/src/rpcwallet.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/script.cpp" afterPath="$PROJECT_DIR$/src/script.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/script.h" afterPath="$PROJECT_DIR$/src/script.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/scrypt-sse2.cpp" afterPath="$PROJECT_DIR$/src/scrypt-sse2.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/scrypt.cpp" afterPath="$PROJECT_DIR$/src/scrypt.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/scrypt.h" afterPath="$PROJECT_DIR$/src/scrypt.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/qt/sendcoinsdialog.cpp" afterPath="$PROJECT_DIR$/src/qt/sendcoinsdialog.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/qt/sendcoinsentry.cpp" afterPath="$PROJECT_DIR$/src/qt/sendcoinsentry.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/serialize.h" afterPath="$PROJECT_DIR$/src/serialize.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/qt/signverifymessagedialog.cpp" afterPath="$PROJECT_DIR$/src/qt/signverifymessagedialog.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/qt/forms/signverifymessagedialog.ui" afterPath="$PROJECT_DIR$/src/qt/forms/signverifymessagedialog.ui" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sync.cpp" afterPath="$PROJECT_DIR$/src/sync.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sync.h" afterPath="$PROJECT_DIR$/src/sync.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/threadsafety.h" afterPath="$PROJECT_DIR$/src/threadsafety.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/qt/transactionview.cpp" afterPath="$PROJECT_DIR$/src/qt/transactionview.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/qt/transactionview.h" afterPath="$PROJECT_DIR$/src/qt/transactionview.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/txdb.cpp" afterPath="$PROJECT_DIR$/src/txdb.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/txdb.h" afterPath="$PROJECT_DIR$/src/txdb.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ui_interface.h" afterPath="$PROJECT_DIR$/src/ui_interface.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/uint256.h" afterPath="$PROJECT_DIR$/src/uint256.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/util.cpp" afterPath="$PROJECT_DIR$/src/util.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/util.h" afterPath="$PROJECT_DIR$/src/util.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/version.cpp" afterPath="$PROJECT_DIR$/src/version.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/version.h" afterPath="$PROJECT_DIR$/src/version.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/wallet.cpp" afterPath="$PROJECT_DIR$/src/wallet.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/wallet.h" afterPath="$PROJECT_DIR$/src/wallet.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/walletdb.cpp" afterPath="$PROJECT_DIR$/src/walletdb.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/walletdb.h" afterPath="$PROJECT_DIR$/src/walletdb.h" />
+    </list>
+    <ignored path="pixcoin.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <file path="/Dummy.txt" changelist="374fb92a-0c20-42d8-b887-f26d59269d53" time="1398928438656" ignored="false" />
+    <file path="/a.dummy" changelist="374fb92a-0c20-42d8-b887-f26d59269d53" time="1398928553724" ignored="false" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="pixcoin" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="addrman.cpp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/addrman.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1" column="27" selection-start="63" selection-end="63" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="addrman.h" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/addrman.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1" column="27" selection-start="63" selection-end="63" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="alert.cpp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/alert.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="27" selection-start="50" selection-end="50" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bitcoinrpc.cpp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/bitcoinrpc.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="766" column="23" selection-start="27970" selection-end="27970" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="init.cpp" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/init.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="198" column="87" selection-start="5571" selection-end="5571" vertical-scroll-proportion="0.21911421">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitLogSettings">
+    <option name="myDateState">
+      <MyDateState />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/src/addrman.cpp" />
+        <option value="$PROJECT_DIR$/src/addrman.h" />
+        <option value="$PROJECT_DIR$/src/alert.cpp" />
+        <option value="$PROJECT_DIR$/src/bitcoinrpc.cpp" />
+        <option value="$PROJECT_DIR$/src/init.cpp" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="22" />
+    <option name="width" value="1885" />
+    <option name="height" value="981" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="2" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents ProjectPane="true" />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pixcoin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pixcoin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pixcoin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <option name="VMOptions" />
+      <option name="arguments" />
+      <option name="filePath" />
+      <option name="scope" value="ALL" />
+      <option name="testName" />
+      <method />
+    </configuration>
+    <list size="0" />
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="374fb92a-0c20-42d8-b887-f26d59269d53" name="Default" comment="" />
+      <created>1398928438242</created>
+      <updated>1398928438242</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="22" width="1885" height="981" extended-state="0" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295711" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24986738" sideWeight="0.6704289" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="CHECK_NEW_TODO" value="true" />
+    <option name="myTodoPanelSettings">
+      <value>
+        <are-packages-shown value="false" />
+        <are-modules-shown value="false" />
+        <flatten-packages value="false" />
+        <is-autoscroll-to-source value="false" />
+      </value>
+    </option>
+    <option name="PERFORM_UPDATE_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_COMMIT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_EDIT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_CHECKOUT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_ADD_REMOVE_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_ROLLBACK_IN_BACKGROUND" value="false" />
+    <option name="CHECK_LOCALLY_CHANGED_CONFLICTS_IN_BACKGROUND" value="false" />
+    <option name="CHANGED_ON_SERVER_INTERVAL" value="60" />
+    <option name="SHOW_ONLY_CHANGED_IN_SELECTION_DIFF" value="true" />
+    <option name="CHECK_COMMIT_MESSAGE_SPELLING" value="true" />
+    <option name="DEFAULT_PATCH_EXTENSION" value="patch" />
+    <option name="SHORT_DIFF_HORIZONTALLY" value="true" />
+    <option name="SHORT_DIFF_EXTRA_LINES" value="2" />
+    <option name="SOFT_WRAPS_IN_SHORT_DIFF" value="true" />
+    <option name="INCLUDE_TEXT_INTO_PATCH" value="false" />
+    <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
+    <option name="SHOW_FILE_HISTORY_DETAILS" value="true" />
+    <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
+    <option name="SHOW_DIRTY_RECURSIVELY" value="false" />
+    <option name="LIMIT_HISTORY" value="true" />
+    <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
+    <option name="UPDATE_FILTER_SCOPE_NAME" />
+    <option name="USE_COMMIT_MESSAGE_MARGIN" value="false" />
+    <option name="COMMIT_MESSAGE_MARGIN_SIZE" value="72" />
+    <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
+    <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
+    <option name="LAST_COMMIT_MESSAGE" />
+    <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="REFORMAT_BEFORE_FILE_COMMIT" value="false" />
+    <option name="FILE_HISTORY_DIALOG_COMMENTS_SPLITTER_PROPORTION" value="0.8" />
+    <option name="FILE_HISTORY_DIALOG_SPLITTER_PROPORTION" value="0.5" />
+    <option name="ACTIVE_VCS_NAME" />
+    <option name="UPDATE_GROUP_BY_PACKAGES" value="false" />
+    <option name="UPDATE_GROUP_BY_CHANGELIST" value="false" />
+    <option name="UPDATE_FILTER_BY_SCOPE" value="false" />
+    <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
+    <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/addrman.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="27" selection-start="63" selection-end="63" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/addrman.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="27" selection-start="63" selection-end="63" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/alert.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="27" selection-start="50" selection-end="50" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bitcoinrpc.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="766" column="23" selection-start="27970" selection-end="27970" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/init.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="198" column="87" selection-start="5571" selection-end="5571" vertical-scroll-proportion="0.21911421">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
+
