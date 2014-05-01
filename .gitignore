@@ -14,7 +14,7 @@ src/test_pixcoin
 # Compilation and Qt preprocessor part
 *.qm
 Makefile
-pixcoin-qt
+#pixcoin-qt
 Pixcoin-Qt.app
 
 # Unit-tests
@@ -35,3 +35,6 @@ build
 Thumbs.db
 
 !src/leveldb*/Makefile
+
+.idea/
+.idea/*
