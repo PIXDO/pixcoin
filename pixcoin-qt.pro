@@ -259,6 +259,7 @@ HEADERS += src/qt/bitcoingui.h \
     src/ui_interface.h \
     src/qt/rpcconsole.h \
     src/scrypt.h \
+    src/qt/miningpage.h \
     src/version.h \
     src/netbase.h \
     src/clientversion.h \
@@ -334,6 +335,7 @@ SOURCES += src/qt/bitcoin.cpp \
     src/qt/paymentserver.cpp \
     src/qt/rpcconsole.cpp \
     src/scrypt.cpp \
+    src/qt/miningpage.cpp \
     src/noui.cpp \
     src/leveldb.cpp \
     src/txdb.cpp \
@@ -353,6 +355,7 @@ FORMS += src/qt/forms/sendcoinsdialog.ui \
     src/qt/forms/sendcoinsentry.ui \
     src/qt/forms/askpassphrasedialog.ui \
     src/qt/forms/rpcconsole.ui \
+    src/qt/forms/miningpage.ui \
     src/qt/forms/optionsdialog.ui
 
 contains(USE_QRCODE, 1) {

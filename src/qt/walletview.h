@@ -14,6 +14,7 @@ class ClientModel;
 class WalletModel;
 class TransactionView;
 class OverviewPage;
+class MiningPage;
 class AddressBookPage;
 class SendCoinsDialog;
 class SignVerifyMessageDialog;
@@ -59,6 +60,7 @@ private:
     WalletModel *walletModel;
 
     OverviewPage *overviewPage;
+    MiningPage *miningPage;
     QWidget *transactionsPage;
     AddressBookPage *addressBookPage;
     AddressBookPage *receiveCoinsPage;
@@ -72,6 +74,8 @@ public slots:
     void gotoOverviewPage();
     /** Switch to history (transactions) page */
     void gotoHistoryPage();
+    /** Switch to mining page */
+    void gotoMiningPage();
     /** Switch to address book page */
     void gotoAddressBookPage();
     /** Switch to receive coins page */

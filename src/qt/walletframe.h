@@ -46,6 +46,8 @@ public slots:
     void gotoOverviewPage();
     /** Switch to history (transactions) page */
     void gotoHistoryPage();
+    /** Switch to address mining page */
+    void gotoMiningPage();
     /** Switch to address book page */
     void gotoAddressBookPage();
     /** Switch to receive coins page */

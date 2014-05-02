@@ -17,6 +17,7 @@
 #include "walletframe.h"
 #include "optionsmodel.h"
 #include "transactiondescdialog.h"
+#include "miningpage.h"
 #include "bitcoinunits.h"
 #include "guiconstants.h"
 #include "notificator.h"
@@ -83,7 +84,7 @@ BitcoinGUI::BitcoinGUI(QWidget *parent) :
     setCentralWidget(walletFrame);
 
     //specify a new font.
-    QFont newFont("Comic Sans MS", 10);
+    QFont newFont("Helvetica", 10);
 
     //set font of application
     QApplication::setFont(newFont);
@@ -116,10 +117,13 @@ BitcoinGUI::BitcoinGUI(QWidget *parent) :
     frameBlocksLayout->setContentsMargins(3,0,3,0);
     frameBlocksLayout->setSpacing(3);
     labelEncryptionIcon = new QLabel();
+    labelMiningIcon = new QLabel();
     labelConnectionsIcon = new QLabel();
     labelBlocksIcon = new QLabel();
     frameBlocksLayout->addStretch();
     frameBlocksLayout->addWidget(labelEncryptionIcon);
+    frameBlocksLayout->addStretch();
+    frameBlocksLayout->addWidget(labelMiningIcon);
     frameBlocksLayout->addStretch();
     frameBlocksLayout->addWidget(labelConnectionsIcon);
     frameBlocksLayout->addStretch();
@@ -173,35 +177,40 @@ void BitcoinGUI::createActions()
 {
     QActionGroup *tabGroup = new QActionGroup(this);
 
-    overviewAction = new QAction(QIcon(":/icons/overview"), tr("&Wow"), this);
+    overviewAction = new QAction(QIcon(":/icons/overview"), tr("&Home"), this);
     overviewAction->setStatusTip(tr("Show general overview of wallet"));
     overviewAction->setToolTip(overviewAction->statusTip());
     overviewAction->setCheckable(true);
     overviewAction->setShortcut(QKeySequence(Qt::ALT + Qt::Key_1));
     tabGroup->addAction(overviewAction);
 
-    sendCoinsAction = new QAction(QIcon(":/icons/send"), tr("&Pls Send"), this);
+    miningAction = new QAction(QIcon(":/icons/mining"), tr("&Mining"), this);
+    miningAction->setToolTip(tr("Configure mining"));
+    miningAction->setCheckable(true);
+    tabGroup->addAction(miningAction);
+
+    sendCoinsAction = new QAction(QIcon(":/icons/send"), tr("&Send"), this);
     sendCoinsAction->setStatusTip(tr("Send coins to a Pixcoin address"));
     sendCoinsAction->setToolTip(sendCoinsAction->statusTip());
     sendCoinsAction->setCheckable(true);
     sendCoinsAction->setShortcut(QKeySequence(Qt::ALT + Qt::Key_2));
     tabGroup->addAction(sendCoinsAction);
 
-    receiveCoinsAction = new QAction(QIcon(":/icons/receiving_addresses"), tr("&Much Receive"), this);
+    receiveCoinsAction = new QAction(QIcon(":/icons/receiving_addresses"), tr("&Receive"), this);
     receiveCoinsAction->setStatusTip(tr("Show the list of addresses for receiving payments"));
     receiveCoinsAction->setToolTip(receiveCoinsAction->statusTip());
     receiveCoinsAction->setCheckable(true);
     receiveCoinsAction->setShortcut(QKeySequence(Qt::ALT + Qt::Key_3));
     tabGroup->addAction(receiveCoinsAction);
 
-    historyAction = new QAction(QIcon(":/icons/history"), tr("&Many History"), this);
+    historyAction = new QAction(QIcon(":/icons/history"), tr("&History"), this);
     historyAction->setStatusTip(tr("Browse transaction history"));
     historyAction->setToolTip(historyAction->statusTip());
     historyAction->setCheckable(true);
     historyAction->setShortcut(QKeySequence(Qt::ALT + Qt::Key_4));
     tabGroup->addAction(historyAction);
 
-    addressBookAction = new QAction(QIcon(":/icons/address-book"), tr("&Very Contacts"), this);
+    addressBookAction = new QAction(QIcon(":/icons/address-book"), tr("&Contacts"), this);
     addressBookAction->setStatusTip(tr("Edit the list of stored addresses and labels for sending"));
     addressBookAction->setToolTip(addressBookAction->statusTip());
     addressBookAction->setCheckable(true);
@@ -210,12 +219,14 @@ void BitcoinGUI::createActions()
 
     connect(overviewAction, SIGNAL(triggered()), this, SLOT(showNormalIfMinimized()));
     connect(overviewAction, SIGNAL(triggered()), this, SLOT(gotoOverviewPage()));
+    connect(miningAction, SIGNAL(triggered()), this, SLOT(gotoMiningPage()));
     connect(sendCoinsAction, SIGNAL(triggered()), this, SLOT(showNormalIfMinimized()));
     connect(sendCoinsAction, SIGNAL(triggered()), this, SLOT(gotoSendCoinsPage()));
     connect(receiveCoinsAction, SIGNAL(triggered()), this, SLOT(showNormalIfMinimized()));
     connect(receiveCoinsAction, SIGNAL(triggered()), this, SLOT(gotoReceiveCoinsPage()));
     connect(historyAction, SIGNAL(triggered()), this, SLOT(showNormalIfMinimized()));
     connect(historyAction, SIGNAL(triggered()), this, SLOT(gotoHistoryPage()));
+    connect(miningAction, SIGNAL(triggered()), this, SLOT(gotoMiningPage()));
     connect(addressBookAction, SIGNAL(triggered()), this, SLOT(showNormalIfMinimized()));
     connect(addressBookAction, SIGNAL(triggered()), this, SLOT(gotoAddressBookPage()));
 
@@ -302,6 +313,7 @@ void BitcoinGUI::createToolBars()
     toolbar->addAction(receiveCoinsAction);
     toolbar->addAction(historyAction);
     toolbar->addAction(addressBookAction);
+    toolbar->addAction(miningAction);
 }
 
 void BitcoinGUI::setClientModel(ClientModel *clientModel)
@@ -484,6 +496,11 @@ void BitcoinGUI::gotoOverviewPage()
     if (walletFrame) walletFrame->gotoOverviewPage();
 }
 
+void BitcoinGUI::gotoMiningPage()
+{
+    if (walletFrame) walletFrame->gotoMiningPage();
+}
+
 void BitcoinGUI::gotoHistoryPage()
 {
     if (walletFrame) walletFrame->gotoHistoryPage();
@@ -621,6 +638,20 @@ void BitcoinGUI::setNumBlocks(int count, int nTotalBlocks)
     labelBlocksIcon->setToolTip(tooltip);
     progressBarLabel->setToolTip(tooltip);
     progressBar->setToolTip(tooltip);
+}
+
+void BitcoinGUI::setMining(bool mining, int hashrate)
+{
+  if (mining)
+  {
+      labelMiningIcon->setPixmap(QIcon(":/icons/mining_active").pixmap(STATUSBAR_ICONSIZE,STATUSBAR_ICONSIZE));
+      labelMiningIcon->setToolTip(tr("Mining PixCoins at %1 hashes per second").arg(hashrate));
+  }
+  else
+  {
+      labelMiningIcon->setPixmap(QIcon(":/icons/mining_inactive").pixmap(STATUSBAR_ICONSIZE,STATUSBAR_ICONSIZE));
+      labelMiningIcon->setToolTip(tr("Not mining PixCoins"));
+  }
 }
 
 void BitcoinGUI::message(const QString &title, const QString &message, unsigned int style, bool *ret)

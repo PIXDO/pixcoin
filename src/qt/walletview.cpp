@@ -12,6 +12,7 @@
 #include "signverifymessagedialog.h"
 #include "clientmodel.h"
 #include "walletmodel.h"
+#include "miningpage.h"
 #include "optionsmodel.h"
 #include "transactionview.h"
 #include "overviewpage.h"
@@ -38,6 +39,8 @@ WalletView::WalletView(QWidget *parent, BitcoinGUI *_gui):
     // Create tabs
     overviewPage = new OverviewPage();
 
+    miningPage = new MiningPage(this);
+
     transactionsPage = new QWidget(this);
     QVBoxLayout *vbox = new QVBoxLayout();
     QHBoxLayout *hbox_buttons = new QHBoxLayout();
@@ -62,6 +65,7 @@ WalletView::WalletView(QWidget *parent, BitcoinGUI *_gui):
     signVerifyMessageDialog = new SignVerifyMessageDialog(gui);
 
     addWidget(overviewPage);
+    addWidget(miningPage);
     addWidget(transactionsPage);
     addWidget(addressBookPage);
     addWidget(receiveCoinsPage);
@@ -70,6 +74,8 @@ WalletView::WalletView(QWidget *parent, BitcoinGUI *_gui):
     // Clicking on a transaction on the overview page simply sends you to transaction history page
     connect(overviewPage, SIGNAL(transactionClicked(QModelIndex)), this, SLOT(gotoHistoryPage()));
     connect(overviewPage, SIGNAL(transactionClicked(QModelIndex)), transactionView, SLOT(focusTransaction(QModelIndex)));
+
+    connect(overviewPage, SIGNAL(transactionClicked(QModelIndex)), this, SLOT(gotoMiningPage()));
 
     // Double-clicking on a transaction on the transaction history page shows details
     connect(transactionView, SIGNAL(doubleClicked(QModelIndex)), transactionView, SLOT(showDetails()));
@@ -154,6 +160,12 @@ void WalletView::gotoOverviewPage()
 {
     gui->getOverviewAction()->setChecked(true);
     setCurrentWidget(overviewPage);
+}
+
+void WalletView::gotoMiningPage()
+{
+    gui->getMiningAction()->setChecked(true);
+    setCurrentWidget(miningPage);
 }
 
 void WalletView::gotoHistoryPage()

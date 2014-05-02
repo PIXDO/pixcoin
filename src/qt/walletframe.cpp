@@ -88,6 +88,12 @@ void WalletFrame::gotoHistoryPage()
     walletStack->gotoHistoryPage();
 }
 
+void WalletFrame::gotoMiningPage()
+{
+    walletStack->gotoMiningPage();
+}
+
+
 void WalletFrame::gotoAddressBookPage()
 {
     WalletView *walletView = currentWalletView();
