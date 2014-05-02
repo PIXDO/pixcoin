@@ -146,6 +146,8 @@ private:
 
     QTimer *pollTimer;
 
+    bool miningDebug;
+
     void subscribeToCoreSignals();
     void unsubscribeFromCoreSignals();
     void checkBalanceChanged();
