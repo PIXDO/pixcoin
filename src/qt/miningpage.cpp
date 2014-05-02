@@ -126,7 +126,8 @@ void MiningPage::stopPoolMining()
 
 void MiningPage::saveSettings()
 {
-    model->setMiningDebug(ui->debugCheckBox->isChecked());
+    bool isDebugChecked = ui->debugCheckBox->isChecked();
+   // model->setMiningDebug(isDebugChecked);
     model->setMiningScanTime(ui->scantimeBox->value());
     model->setMiningServer(ui->serverLine->text());
     model->setMiningPort(ui->portLine->text());

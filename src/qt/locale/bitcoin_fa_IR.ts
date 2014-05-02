@@ -253,7 +253,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+1"/>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR DOGECOINS&lt;/b&gt;!</source>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR PIXCOINS&lt;/b&gt;!</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1269,7 +1269,7 @@ Address: %4
     <message>
         <location filename="../rpcconsole.cpp" line="-30"/>
         <source>Welcome to the Pixcoin RPC console.</source>
-        <translation>به کنسول آر.پی.سی. DOGECOIN خوش آمدید</translation>
+        <translation>به کنسول آر.پی.سی. PIXCOIN خوش آمدید</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1323,8 +1323,8 @@ Address: %4
     </message>
     <message>
         <location line="+10"/>
-        <source>123.456 DOGE</source>
-        <translation>123.456 DOGE</translation>
+        <source>123.456 PIX</source>
+        <translation>123.456 PIX</translation>
     </message>
     <message>
         <location line="+31"/>

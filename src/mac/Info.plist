@@ -26,7 +26,7 @@
 	<key>NSHumanReadableCopyright</key>
 	<string>© Pixcoin</string>
 	<key>CFBundleSignature</key>
-	<string>DOGE</string>
+	<string>PXC</string>
 	<key>CFBundleExecutable</key>
 	<string>Pixcoin-Qt</string>
 	<key>CFBundleIdentifier</key>
