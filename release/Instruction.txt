@@ -1,0 +1,15 @@
+Hey there,
+
+First, make sure you change the user name and password in your PixCoin.conf file.
+Then move it to this location:
+C:\Users\**Your user name here**\AppData\Roaming\PixCoin\
+
+The final path of the PixCoin.conf file should be:
+C:\Users\**Your user name here**\AppData\Roaming\PixCoin\PixCoin.conf
+
+If you want to use the mining feature of the wallet add this line to the PixCoin.conf file
+gen=1
+
+More about pixcoins
+http://github.com/pixdo/pixcoin
+http://pix.do
