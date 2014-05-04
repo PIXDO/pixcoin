@@ -1113,32 +1113,54 @@ int64 static GetBlockValue(int nHeight, int64 nFees, uint256 prevHash)
     int rand3 = 0;
     int rand4 = 0;
 
-    if(rand < 10000)
-    {
-        rand1 = generateMTRandom(seed, 101);
 
-        rand2 = generateMTRandom(seed, 102);
 
-        rand3 = generateMTRandom(seed, 103);
+    if (nHeight < 4000) {  // Legacy
+        if(rand < 10000)
+        {
+            rand1 = generateMTRandom(seed, 101);
 
-        rand4 = generateMTRandom(seed, 104);
+            rand2 = generateMTRandom(seed, 102);
 
-        int final = rand1;
-        if(final > rand2) {
-           final = rand2;
+            rand3 = generateMTRandom(seed, 103);
+
+            rand4 = generateMTRandom(seed, 104);
+
+            int final = rand1;
+            if(final > rand2) {
+               final = rand2;
+            }
+            if(final > rand3) {
+               final = rand3;
+            }
+            if(final > rand4) {
+               final = rand4;
+            }
+
+            nSubsidy = final * COIN;
         }
-        if(final > rand3) {
-           final = rand3;
+        else if(rand == 12345)
+        {
+            nSubsidy = 4000 * COIN;
         }
-        if(final > rand4) {
-           final = rand4;
-        }
-
-        nSubsidy = final * COIN;
     }
-    else if(rand == 12345)
-    {
-        nSubsidy = 4000 * COIN;
+    else {  // New, Real, rewarding system
+        printf("New block index is %d\n", nHeight);
+        if(rand < 10000)
+        {
+            printf("New block value calc with rand %d\n", rand);
+            nSubsidy = 10 * COIN;
+            if(rand < 1000) {
+                nSubsidy = 25 * COIN;
+                if(rand < 100) {
+                    nSubsidy = 100 * COIN;
+                }
+            }
+        }
+        else if(rand == 12345)
+        {
+            nSubsidy = 4000 * COIN;
+        }
     }
 
     if (nHeight == 1) {
