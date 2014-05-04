@@ -1,8 +1,7 @@
 # PixCoin PXD
 
-![PixCoin](http://pix.do)
+![PixCoin](http://pixcoin.org)  (Website coming soon...)
 
-http://pix.do
 
 Follow us [@PIXDOapp](http://twitter.com/PIXDOApp)
 
@@ -12,7 +11,7 @@ Copyright (c) 2009-2013 Bitcoin Developers
 
 Copyright (c) 2011-2013 Litecoin Developers
 
-Copyright (c) 2013 AuroraCoin Developers
+Copyright (c) 2013 DogeCoin Developers
 
 Copyright (c) 2014 PixCoin Iftach Orr
 
@@ -23,9 +22,18 @@ Pixcoin is a cryptocurrency for the community of [Pixdo](http://pix.do). It is b
 
 ## Community
 
-http://pix.do/leaderboard
+[Reddit](http://www.reddit.com/r/pixdo)
 
-http://www.reddit.com/r/pixdo
+[Pixdo community](http://pix.do/leaderboard)
+
+[Facebook](http://facebook.com/PIXDOApp)
+
+[Twitter](http://twitter.com/PIXDOApp)
+
+[Chat](http://twitter.com/PIXDOApp)
+
+
+
 
 
 ## Developers
@@ -38,15 +46,15 @@ Want to chat with me on skype/hangout? email me at info<_at_>pix.do
 
 - RPC: 40303
 - NET: 40302
-- Total coins: 400 million
-- 5 to 200 coins per block with a rare 5,000 coins blocks.
-- Block every 5 minutes
+- Total coins: 200 million
+- 5 to 100 coins per block with rare 4,000 coins blocks.
+- Block every 1 minute
 - Coins mature after 40 blocks
 
 
 ## Contributors
 
-Special thanks for the amazing guys from the community for the feedback and help
+Special thanks for the amazing guys from the community for their help
 
 - [pingu](http://www.pingu.net/official_pingu_website_flag_page.htm)
 - [Cupcake](https://twitter.com/TheAltCupcake) (Jacob Squires)
