@@ -44,7 +44,7 @@ Want to chat with me on skype/hangout? email me at info<_at_>pix.do
 
 ## More information (Might change according to the community feedback in order to find the right balance)
 
-- RPC: 40303
+- RPC: 40307
 - NET: 40302
 - Total coins: 200 million
 - 5 to 100 coins per block with rare 4,000 coins blocks.
@@ -63,5 +63,9 @@ Special thanks for the amazing guys from the community for their help
 - [vosjes22](http://www.reddit.com/user/vosjes22/)
 - [Arm1stice](https://github.com/Arm1stice)
 
+
+## How to compile:
+
+-
 
 
