@@ -47,9 +47,15 @@ Want to chat with me on skype/hangout? email me at info<_at_>pix.do
 - RPC: 40307
 - NET: 40302
 - Total coins: 200 million
-- 5 to 100 coins per block with rare 4,000 coins blocks.
 - Block every 1 minute
 - Coins mature after 40 blocks
+- 90% change for block with 5 coins
+- 9% change for block with 10 coins
+- 0.9% change for block with 25 coins
+- 0.1% change for block with 100 coins
+- Rare jackpot blocks with 4,000 coins
+- 8.75% of coins are 'mine-able' without CPU/GPU - [more info](http://pix.do)
+
 
 
 ## Contributors
