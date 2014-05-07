@@ -42,7 +42,7 @@ Created by Iftach Orr, the creator of [Pixdo](http://pix.do).
 
 Want to chat with me on skype/hangout? email me at info<_at_>pix.do
 
-## More information (Might change according to the community feedback in order to find the right balance)
+## More information:
 
 - RPC: 40307
 - NET: 40302
@@ -72,6 +72,6 @@ Special thanks for the amazing guys from the community for their help
 
 ## How to compile:
 
--
+- coming soon
 
 
