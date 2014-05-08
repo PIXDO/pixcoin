@@ -68,7 +68,18 @@ Special thanks for the amazing guys from the community for their help
 - [TadeoKondrak](http://github.com/TadeoKondrak)
 - [vosjes22](http://www.reddit.com/user/vosjes22/)
 - [Arm1stice](https://github.com/Arm1stice)
+- [Arshvein](http://twitter.com/arshvein)
 
+
+## Known pools
+
+- http://pool.pixcoin.org (USA)  by [Arshvein](http://twitter.com/arshvein)
+- http://pix.dgbpool.com (China)
+- http://pix.5limi.com (China)
+
+## Chain explorer
+
+- http://explore.pixcoin.org
 
 ## How to compile:
 
