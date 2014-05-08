@@ -23,7 +23,7 @@ Pixcoin is a cryptocurrency for the community of [Pixdo](http://pix.do). It is b
 
 ## Community
 
-[Reddit](http://www.reddit.com/r/pixdo)
+[Reddit](http://www.reddit.com/r/pixcoins)
 
 [Pixdo community](http://pix.do/leaderboard)
 
