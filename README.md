@@ -1,7 +1,8 @@
 # PixCoin PXD
 
-![PixCoin](http://pixcoin.org)  (Website coming soon...)
+### [pixcoin.org](http://pixcoin.org)
 
+![http://pixcoin.org](http://i.imgur.com/IiaS1J1.png)
 
 Follow us [@PIXDOapp](http://twitter.com/PIXDOApp)
 
@@ -11,7 +12,7 @@ Copyright (c) 2009-2013 Bitcoin Developers
 
 Copyright (c) 2011-2013 Litecoin Developers
 
-Copyright (c) 2013 DogeCoin Developers
+Copyright (c) 2013 Dogecoin Developers
 
 Copyright (c) 2014 PixCoin Iftach Orr
 
