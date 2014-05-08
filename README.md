@@ -18,7 +18,7 @@ Copyright (c) 2014 PixCoin Iftach Orr
 
 ## What is PixCoin?
 
-Pixcoin is a cryptocurrency for the community of [Pixdo](http://pix.do). It is based on litecoin and is 8.75% premined. The premined coins are distributed to the users of Pixdo to allow also non savvy users to 'mine' pixcoins.
+Pixcoin is a cryptocurrency for the community of [Pixdo](http://pix.do). It is based on litecoin and is 8.75% premined. The premined coins are distributed to the users of Pixdo to allow also non savvy users to 'mine' Pixcoins.
 
 
 ## Community
@@ -74,13 +74,13 @@ Special thanks for the amazing guys from the community for their help
 
 ## Known pools
 
-- http://pool.pixcoin.org (USA)  by [Arshvein](http://twitter.com/arshvein)
+- http://pool.pixcoin.org (USA) by [Arshvein](http://twitter.com/arshvein)
 - http://pix.dgbpool.com (China)
 - http://pix.5limi.com (China)
 
 ## Chain explorer
 
-- http://explore.pixcoin.org
+- http://explore.pixcoin.org by [Arshvein](http://twitter.com/arshvein)
 
 ## How to compile:
 
