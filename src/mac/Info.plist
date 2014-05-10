@@ -14,9 +14,9 @@
 		</dict>
 	</array>
 	<key>CFBundleShortVersionString</key>
-        <string>1.6.2</string>
+        <string>1.6.3</string>
 	<key>CFBundleVersion</key>
-        <string>1.6.2</string>
+        <string>1.6.3</string>
 	<key>NSPrincipalClass</key>
 	<string>NSApplication</string>
 	<key>CFBundleIconFile</key>
@@ -26,7 +26,7 @@
 	<key>NSHumanReadableCopyright</key>
 	<string>© Pixcoin</string>
 	<key>CFBundleSignature</key>
-	<string>PXC</string>
+	<string>PIX</string>
 	<key>CFBundleExecutable</key>
 	<string>Pixcoin-Qt</string>
 	<key>CFBundleIdentifier</key>

@@ -5,7 +5,7 @@ SetCompressor /SOLID lzma
 
 # General Symbol Definitions
 !define REGKEY "SOFTWARE\$(^Name)"
-!define VERSION 1.6.2
+!define VERSION 1.6.3
 !define COMPANY "Pixcoin project"
 !define URL http://www.pixcoin.com/
 

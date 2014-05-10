@@ -38,7 +38,7 @@ const std::string CLIENT_NAME("Pixcoinbeta");
 #define GIT_ARCHIVE 1
 #ifdef GIT_ARCHIVE
 #    define GIT_COMMIT_ID ""
-#    define GIT_COMMIT_DATE "Wed, 12 Mar 2014 13:37:00 +0000"
+#    define GIT_COMMIT_DATE "Wed, 10 May 2014 13:00:00 +0000"
 #endif
 
 #define BUILD_DESC_FROM_COMMIT(maj,min,rev,build,commit) \

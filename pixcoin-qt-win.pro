@@ -3,7 +3,7 @@ TEMPLATE = app
 TARGET = pixcoin-qt
 macx:TARGET = "Pixcoin-Qt"
 
-VERSION = 1.6.1
+VERSION = 1.6.3
 INCLUDEPATH += src src/json src/qt
 QT += core gui network
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
