@@ -100,7 +100,7 @@ Special thanks for the amazing guys from the community for their help
 - sudo apt-get install build-essential libboost-all-dev libcurl4-openssl-dev libdb5.1-dev libdb4.8 qt-sdk libdb5.1-dev ibdb++-dev libminiupnpc-dev qrencode libqrencode-dev qt4-dev-tools qt4-qmake
 - git clone https://github.com/PIXDO/pixcoin.git
 - cd pixcoin
-- qmake pixcoin-qt.pro  (In some linux version I do: qmake pixcoin-qt.pro “USE_UPNP=-”)
+- qmake-qt4 pixcoin-qt.pro  (In some linux version I do: qmake pixcoin-qt.pro “USE_UPNP=-”)
 - make
 
 ### Windows
