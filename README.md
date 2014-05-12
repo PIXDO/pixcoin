@@ -74,10 +74,12 @@ Special thanks for the amazing guys from the community for their help
 
 ## Known pools
 
+- http://pool.mycryptoco.in (Netherlands)
+- http://poollo.com (USA)
 - http://pool.pixcoin.org (USA) by [Arshvein](http://twitter.com/arshvein)
 - http://pix.dgbpool.com (China)
 - http://pix.5limi.com (China)
-- http://pool.mycryptoco.in (Netherlands)
+
 
 ## Chain explorer
 
