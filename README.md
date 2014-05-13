@@ -63,6 +63,7 @@ Want to chat with me on skype/hangout? email me at info<_at_>pix.do
 
 Special thanks for the amazing guys from the community for their help
 
+- [Courtney Wurz](http://github.com/cwurtz)
 - [pingu](http://www.pingu.net/official_pingu_website_flag_page.htm)
 - [Cupcake](https://twitter.com/TheAltCupcake) (Jacob Squires)
 - [Plazmaz](http://github.com/Plazmaz) (Dylan Katz)
@@ -70,6 +71,8 @@ Special thanks for the amazing guys from the community for their help
 - [vosjes22](http://www.reddit.com/user/vosjes22/)
 - [Arm1stice](https://github.com/Arm1stice)
 - [Arshvein](http://twitter.com/arshvein)
+
+
 
 
 ## Known pools
